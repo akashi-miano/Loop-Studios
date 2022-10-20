@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet"> 
+		<!-- font awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!-- external style sheet -->
+		<link rel="stylesheet" href="css/style.css" media="all">
+		<!-- external JavaScript -->
+		<script defer src="js/script.js"></script>
+		<title>Sutdio</title>
+	</head>
+	<body>
+		<header class="hero">
+			<!-- nav --> 
+			<nav class="hero__nav flex items-center justify-between container pt-12 mb-32">
+				<img class="hero__logo" src="images/logo.svg" alt="">
+				<div class="mobile-nav-wrapper container flex justify-end">
+					<button class="mobile-nav md:hidden z-20 py-2">
+						<div class="hamburger flex justify-center"></div>
+					</button>
+				</div>
+				<ul class="hero__list md:flex items-center gap-4 fixed md:static top-0 left-0 w-full h-full z-10 duration-300 translate-x-full md:translate-x-0 bg-black md:bg-transparent flex flex-col justify-center md:flex-row space-y-8 md:space-y-0">
+					<li class="hero__item"><a href="">About</a></li>
+					<li class="hero__item"><a href="">Careers</a></li>
+					<li class="hero__item"><a href="">Events</a></li>
+					<li class="hero__item"><a href="">Products</a></li>
+					<li class="hero__item"><a href="">Support</a></li>
+				</ul>
+			</nav>
+			<!-- hero title-->
+			<div class="container py-14">
+				<h1 class="w-fit hero__title uppercase text-6xl text-white border-2 border-white py-8 px-4 tracking-wider font-light leading-24"> Impressive <br>Experiences <br>That Deliver </h1>
+			</div>
+		</header>
+
+		<!-- Interactive section -->
+		<section class="interactive">
+			<div class="interactive-container container text-center grid grid-cols-1 md:grid-cols-2 items-center gap-8 py-14 md:py-24">
+				<div class="interactive__img-wrapper">
+					<img class="w-full" src="images/desktop/image-interactive.jpg" alt="">
+				</div>
+				<div class="interactive__content flow-content--md">
+					<h2 class="interactive__title section-title"> The leader in <br>interactive VR </h2>
+					<p class="interactive__desc section-desc"> Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand. </p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Creations section  -->
+		<section class="creation py-14 md:py-24">
+			<div class="creation__container container">
+				<header class="creation__header flex flex-col items-center md:flex-row justify-between mb-14">
+					<h1 class="creation__title text-center section-title text-5xl text-zinc-800 tracking-[.5rem] mb-6 md:m-0"> Our Creations </h1>
+					<a class="btn btn-primary" href="">see all</a>
+				</header>
+				<div class="creation__content grid grid-cols-1 md:grid-cols-4 gap-4">
+					<div class="ceraetion__img-wrapper group  flow-content--xs relative">
+						<img class="creation__img hidden md:block group-hover:scale-110 duration-300" src="images/desktop/image-deep-earth.jpg" alt="">
+						<img class="creation__img md:hidden group-hover:scale-110 duration-300" src="images/mobile/image-deep-earth.jpg" alt="">
+						<p class="creation__desc uppercase absolute bottom-[2rem] left-[2rem] text-white">deep<br>earth</p>
+						<div class="creation__img-gradient"></div>
+					</div>
+					<div class="ceraetion__img-wrapper group  flow-content--xs relative">
+						<img class="creation__img hidden md:block group-hover:scale-110 duration-300" src="images/desktop/image-night-arcade.jpg" alt="">
+						<img class="creation__img md:hidden group-hover:scale-110 duration-300" src="images/mobile/image-night-arcade.jpg" alt="">
+						<p class="creation__desc uppercase absolute bottom-[2rem] left-[2rem] text-white">night<br>arcade</p>
+						<div class="creation__img-gradient"></div>
+					</div>
+					<div class="ceraetion__img-wrapper group  flow-content--xs relative">
+						<img class="creation__img hidden md:block group-hover:scale-110 duration-300" src="images/desktop/image-soccer-team.jpg" alt="">
+						<img class="creation__img md:hidden group-hover:scale-110 duration-300" src="images/mobile/image-soccer-team.jpg" alt="">
+						<p class="creation__desc uppercase absolute bottom-[2rem] left-[2rem] text-white">soccer<br>team vr</p>
+						<div class="creation__img-gradient"></div>
+					</div>
+					<div class="ceraetion__img-wrapper group  flow-content--xs relative">
+						<img class="creation__img hidden md:block group-hover:scale-110 duration-300" src="images/desktop/image-grid.jpg" alt="">
+						<img class="creation__img md:hidden group-hover:scale-110 duration-300" src="images/mobile/image-grid.jpg" alt="">
+						<p class="creation__desc uppercase absolute bottom-[2rem] left-[2rem] text-white">the<br>grid</p>
+						<div class="creation__img-gradient"></div>
+					</div>
+					<div class="ceraetion__img-wrapper group  flow-content--xs relative">
+						<img class="creation__img hidden md:block group-hover:scale-110 duration-300" src="images/desktop/image-from-above.jpg" alt="">
+						<img class="creation__img md:hidden group-hover:scale-110 duration-300" src="images/mobile/image-from-above.jpg" alt="">
+						<p class="creation__desc uppercase absolute bottom-[2rem] left-[2rem] text-white">from up<br>above vr</p>
+						<div class="creation__img-gradient"></div>
+					</div>
+					<div class="ceraetion__img-wrapper group  flow-content--xs relative">
+						<img class="creation__img hidden md:block group-hover:scale-110 duration-300" src="images/desktop/image-pocket-borealis.jpg" alt="">
+						<img class="creation__img md:hidden group-hover:scale-110 duration-300" src="images/mobile/image-pocket-borealis.jpg" alt="">
+						<p class="creation__desc uppercase absolute bottom-[2rem] left-[2rem] text-white">pocket<br>borealis</p>
+						<div class="creation__img-gradient"></div>
+					</div>
+					<div class="ceraetion__img-wrapper group  flow-content--xs relative">
+						<img class="creation__img hidden md:block group-hover:scale-110 duration-300" src="images/desktop/image-curiosity.jpg" alt="">
+						<img class="creation__img md:hidden group-hover:scale-110 duration-300" src="images/mobile/image-curiosity.jpg" alt="">
+						<p class="creation__desc uppercase absolute bottom-[2rem] left-[2rem] text-white">the<br>curiosity</p>
+						<div class="creation__img-gradient"></div>
+					</div>
+					<div class="ceraetion__img-wrapper group  flow-content--xs relative">
+						<img class="creation__img hidden md:block group-hover:scale-110 duration-300" src="images/desktop/image-fisheye.jpg" alt="">
+						<img class="creation__img md:hidden group-hover:scale-110 duration-300" src="images/mobile/image-fisheye.jpg" alt="">
+						<p class="creation__desc uppercase absolute bottom-[2rem] left-[2rem] text-white">make it<br>fisheye</p>
+						<div class="creation__img-gradient"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- footer -->
+		<footer class="footer bg-black text-white p-14">
+			<div class="footer__container container">
+				<div class="footer__content grid grid-cols-1 md:grid-cols-2 space-y-8">
+					<nav class="footer__nav flex flex-col gap-4">
+						<div class="footer__img-wrapper mx-auto md:mx-0">
+							<img class="footer__logo w-[180px]" src="images/logo.svg" alt="">
+						</div>
+						<ul class="footer__list flex flex-col md:flex-row items-center gap-8">
+							<li class="footer__item"><a href="">About</a></li>
+							<li class="footer__item"><a href="">Careers</a></li>
+							<li class="footer__item"><a href="">Events</a></li>
+							<li class="footer__item"><a href="">Products</a></li>
+							<li class="footer__item"><a href="">Support</a></li>
+						</ul>
+					</nav>
+					<nav class="footer__nav flex flex-col gap-4 md:justify-self-end">
+						<ul class="footer__social-list flex flex-row justify-center items-center gap-4">
+							<li class="footer__social-item"><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+							<li class="footer__social-item"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+							<li class="footer__social-item"><a href=""><i class="fa-brands fa-patreon"></i></a></li>
+							<li class="footer__social-item"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+						</ul>
+						<p class="footer__desc text-gray-600 text-md text-center"> &copy; 2022 Loopstudios. All Rights Reserved </p>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
