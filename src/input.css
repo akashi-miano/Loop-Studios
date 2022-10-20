@@ -102,7 +102,7 @@
 
 /* hero section */
 .hero a {
-	@apply text-6xl md:text-lg text-white font-bold border-b-2 border-b-transparent pb-1 hover:border-b-white duration-500 ;
+	@apply text-6xl md:text-lg text-white font-bold border-b-2 border-b-transparent pb-1 hover:text-emerald-500 md:hover:border-b-white duration-500 ;
 }
 
 .footer__list a{
@@ -167,5 +167,15 @@
 	html {
 		font-size: 62.5%;
 	}
+}
+
+/* mobile */
+
+@media (max-width: 35em) {
+	.hero {
+		@apply min-h-[100%];
+		background: url('../images/mobile/image-hero.jpg') no-repeat center/cover !important;
+	}
+
 }
 

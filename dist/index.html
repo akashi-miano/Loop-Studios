@@ -57,11 +57,11 @@
 		</section>
 
 		<!-- Creations section  -->
-		<section class="creation py-14 md:py-24">
+		<section class="creation py-14 md:py-24 px-2">
 			<div class="creation__container container">
 				<header class="creation__header flex flex-col items-center md:flex-row justify-between mb-14">
 					<h1 class="creation__title text-center section-title text-5xl text-zinc-800 tracking-[.5rem] mb-6 md:m-0"> Our Creations </h1>
-					<a class="btn btn-primary" href="">see all</a>
+					<a class="btn btn-primary hidden md:block" href="">see all</a>
 				</header>
 				<div class="creation__content grid grid-cols-1 md:grid-cols-4 gap-4">
 					<div class="ceraetion__img-wrapper group  flow-content--xs relative">
@@ -106,12 +106,13 @@
 						<p class="creation__desc uppercase absolute bottom-[2rem] left-[2rem] text-white">the<br>curiosity</p>
 						<div class="creation__img-gradient"></div>
 					</div>
-					<div class="ceraetion__img-wrapper group  flow-content--xs relative">
+					<div class="ceraetion__img-wrapper group  flow-content--xs relative mb-14 md:mb-0">
 						<img class="creation__img hidden md:block group-hover:scale-110 duration-300" src="images/desktop/image-fisheye.jpg" alt="">
 						<img class="creation__img md:hidden group-hover:scale-110 duration-300" src="images/mobile/image-fisheye.jpg" alt="">
 						<p class="creation__desc uppercase absolute bottom-[2rem] left-[2rem] text-white">make it<br>fisheye</p>
 						<div class="creation__img-gradient"></div>
 					</div>
+					<a class="btn btn-primary text-3xl text-center md:hidden" href="">see all</a>
 				</div>
 			</div>
 		</section>

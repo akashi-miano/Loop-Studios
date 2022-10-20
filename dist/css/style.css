@@ -750,6 +750,10 @@ a {
   margin-bottom: 1.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -865,6 +869,21 @@ a {
   padding-right: 1rem;
 }
 
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pt-12 {
   padding-top: 3rem;
 }
@@ -881,6 +900,26 @@ a {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-light {
@@ -949,14 +988,19 @@ a {
 }
 
 .hero a:hover {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(16 185 129 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
   .hero a {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .hero a:hover {
+    --tw-border-opacity: 1;
+    border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity));
   }
 }
 
@@ -1043,6 +1087,15 @@ a {
   }
 }
 
+/* mobile */
+
+@media (max-width: 35em) {
+  .hero {
+    min-height: 100%;
+    background: url('../images/mobile/image-hero.jpg') no-repeat center/cover !important;
+  }
+}
+
 .group:hover .group-hover\:scale-110 {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1061,6 +1114,10 @@ a {
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .md\:block {
